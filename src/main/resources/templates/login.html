@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Registration</title>
+
+</head>
+<body>
+<div class="registration-container">
+    <h2>Registration in tour agency</h2>
+    <form action="/login" method="post">
+        <label for="First_Name">First name:</label>
+        <input type="text" id="First_Name" name="First_Name" required>
+
+        <label for="Second_Name">Second name:</label>
+        <input type="text" id="Second_Name" name="Second_Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="Pass" required>
+
+        <button type="submit" class="btn btn-success">Sign in</button>
+    </form>
+</div>
+</body>
+</html>
